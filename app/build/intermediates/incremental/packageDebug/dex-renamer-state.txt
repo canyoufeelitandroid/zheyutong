@@ -1,0 +1,4 @@
+#Fri Jan 06 22:54:34 GMT+08:00 2017
+base.0=G\:\\studio_workspace\\zheyutongs\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=G\:\\studio_workspace\\zheyutongs\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

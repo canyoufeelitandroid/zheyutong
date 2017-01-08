@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white_color">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/logon">
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:text="手     机"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="@color/gray"
+            android:layout_margin="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"/>
+
+        <TextView
+            android:id="@+id/random"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:text="随机码"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="@color/gray"
+            android:layout_margin="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/phone"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="@color/gray"
+            android:layout_below="@+id/phone"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="@color/gray"
+            android:layout_below="@+id/random"/>
+        <EditText
+            android:id="@+id/phone_in"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:gravity="left|center_vertical"
+            android:background="@drawable/edittext"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"/>
+        <EditText
+            android:id="@+id/random_in"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:gravity="left|center_vertical"
+            android:background="@drawable/edittext"
+            android:layout_alignParentRight="true"
+            android:layout_alignRight="@id/random"
+            android:layout_below="@id/phone_in"/>
+
+        <TextView
+            android:id="@+id/text_code"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/random"
+            android:layout_alignParentLeft="true"
+            android:text="短信码"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="@color/gray"/>
+
+        <EditText
+            android:id="@+id/text_in"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:gravity="left|center_vertical"
+            android:background="@drawable/edittext"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/random_in"/>
+    </RelativeLayout>
+    <Button
+        android:id="@+id/nextBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="下一步"
+        android:textColor="@color/white_color"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_logon"/>
+
+</LinearLayout>
+

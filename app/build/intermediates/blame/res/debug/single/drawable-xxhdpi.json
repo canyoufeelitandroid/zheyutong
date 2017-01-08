@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "G:\\studio_workspace\\zheyutongs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\main_page.png",
+        "source": "G:\\studio_workspace\\zheyutongs\\app\\src\\main\\res\\drawable-xxhdpi\\main_page.png"
+    },
+    {
+        "merged": "G:\\studio_workspace\\zheyutongs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\other_settings.png",
+        "source": "G:\\studio_workspace\\zheyutongs\\app\\src\\main\\res\\drawable-xxhdpi\\other_settings.png"
+    },
+    {
+        "merged": "G:\\studio_workspace\\zheyutongs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\boat.png",
+        "source": "G:\\studio_workspace\\zheyutongs\\app\\src\\main\\res\\drawable-xxhdpi\\boat.png"
+    },
+    {
+        "merged": "G:\\studio_workspace\\zheyutongs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\main_home.png",
+        "source": "G:\\studio_workspace\\zheyutongs\\app\\src\\main\\res\\drawable-xxhdpi\\main_home.png"
+    },
+    {
+        "merged": "G:\\studio_workspace\\zheyutongs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\setting.png",
+        "source": "G:\\studio_workspace\\zheyutongs\\app\\src\\main\\res\\drawable-xxhdpi\\setting.png"
+    },
+    {
+        "merged": "G:\\studio_workspace\\zheyutongs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\map.png",
+        "source": "G:\\studio_workspace\\zheyutongs\\app\\src\\main\\res\\drawable-xxhdpi\\map.png"
+    },
+    {
+        "merged": "G:\\studio_workspace\\zheyutongs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\next.png",
+        "source": "G:\\studio_workspace\\zheyutongs\\app\\src\\main\\res\\drawable-xxhdpi\\next.png"
+    },
+    {
+        "merged": "G:\\studio_workspace\\zheyutongs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\right.png",
+        "source": "G:\\studio_workspace\\zheyutongs\\app\\src\\main\\res\\drawable-xxhdpi\\right.png"
+    },
+    {
+        "merged": "G:\\studio_workspace\\zheyutongs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\map_none.png",
+        "source": "G:\\studio_workspace\\zheyutongs\\app\\src\\main\\res\\drawable-xxhdpi\\map_none.png"
+    },
+    {
+        "merged": "G:\\studio_workspace\\zheyutongs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\notright.png",
+        "source": "G:\\studio_workspace\\zheyutongs\\app\\src\\main\\res\\drawable-xxhdpi\\notright.png"
+    },
+    {
+        "merged": "G:\\studio_workspace\\zheyutongs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_launcher.png",
+        "source": "G:\\studio_workspace\\zheyutongs\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "G:\\studio_workspace\\zheyutongs\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\pen.png",
+        "source": "G:\\studio_workspace\\zheyutongs\\app\\src\\main\\res\\drawable-xxhdpi\\pen.png"
+    }
+]

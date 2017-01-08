@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item 
+        android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <stroke 
+                android:width="1px" 
+                android:color="@color/divider_line_color"/>
+
+            <gradient 
+                android:angle="270.0" 
+                android:endColor="@color/gridview_item_bg_pressed_color" 
+                android:startColor="@color/gridview_item_bg_pressed_color" />
+        </shape>
+        </item>
+        
+    <item 
+        android:state_focused="true">
+        <shape android:shape="rectangle">
+            <stroke 
+                android:width="1px" 
+                android:color="@color/divider_line_color"/>
+
+            <gradient 
+                android:angle="270.0" 
+                android:endColor="@color/gridview_item_bg_pressed_color" 
+                android:startColor="@color/gridview_item_bg_pressed_color" />
+        </shape>
+        </item>
+        
+    
+    <item>
+        <shape 
+            android:shape="rectangle">
+            <stroke 
+                android:width="1px" 
+                android:color="@color/divider_line_color"/>
+
+            <gradient 
+                android:angle="270.0" 
+                android:endColor="@color/white_color" 
+                android:startColor="@color/white_color" />
+        </shape>
+        </item>
+
+</selector>

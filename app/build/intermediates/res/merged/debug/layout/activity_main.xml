@@ -1,0 +1,152 @@
+<FrameLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+   <RelativeLayout 
+       android:id="@+id/all_page"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       >
+       <!-- 顶TAB -->
+        <RelativeLayout  
+            android:id="@+id/top_tab"  
+            android:layout_width="match_parent"  
+            android:layout_height="50dip"  
+            android:background="@color/blue" >
+  
+            <ImageView  
+                android:id="@+id/iv_logo"  
+                android:layout_width="30dp"  
+                android:layout_height="30dp"  
+                android:layout_centerInParent="true"  
+                android:focusable="false"  
+                android:src="@drawable/boat"  
+                android:contentDescription="@null"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                 />  
+                
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white_color"
+                android:textSize="17sp"
+                android:text="@string/myapp_name"
+                android:gravity="center_vertical"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/iv_logo"
+                />
+  
+        </RelativeLayout> 
+        <!-- 底TAB -->
+       <LinearLayout 
+           android:id="@+id/bottom_tab"
+           android:layout_width="match_parent"
+           android:layout_height="60dp"
+           android:layout_alignParentBottom="true"
+           android:gravity="center_vertical"
+           android:orientation="horizontal"
+           android:baselineAligned="false"
+           android:layout_marginTop="2dp"
+           android:layout_marginBottom="2dp"
+           >
+           <!-- 下菜单第一个菜单按钮(主页) -->
+           <RelativeLayout  
+                android:id="@+id/main_page_item"  
+                android:layout_width="0dp"  
+                android:layout_height="wrap_content"  
+                android:layout_weight="1.0" >  
+  
+                <ImageView  
+                    android:id="@+id/iv_main"  
+                    android:layout_width="wrap_content"  
+                    android:layout_height="wrap_content"  
+                    android:layout_centerHorizontal="true"  
+                    android:src="@drawable/main_home"   
+                    android:contentDescription="@null"/>  
+  
+                <TextView  
+                    android:id="@+id/tv_main"  
+                    android:layout_width="wrap_content"  
+                    android:layout_height="wrap_content"  
+                    android:layout_below="@id/iv_main"  
+                    android:layout_centerHorizontal="true"  
+                    android:text="主页"  
+                    android:textColor="#000000"  
+                    android:textSize="12sp"
+                    />
+            </RelativeLayout>  
+           <!-- 下菜单第二个菜单按钮(地图) -->
+            <RelativeLayout  
+                android:id="@+id/map_item"  
+                android:layout_width="0dp"  
+                android:layout_height="wrap_content"  
+                android:layout_weight="1.0" >  
+  
+                <ImageView  
+                    android:id="@+id/iv_map"  
+                    android:layout_width="wrap_content"  
+                    android:layout_height="wrap_content"  
+                    android:layout_centerHorizontal="true"  
+                    android:src="@drawable/map_none"  
+                    android:contentDescription="@null" />  
+  
+                <TextView  
+                    android:id="@+id/tv_map"  
+                    android:layout_width="wrap_content"  
+                    android:layout_height="wrap_content"  
+                    android:layout_below="@+id/iv_map"  
+                    android:layout_centerHorizontal="true"  
+                    android:text="地图"  
+                    android:textColor="#000000"  
+                    android:textSize="12sp" />  
+            </RelativeLayout>  
+            <!-- 下菜单第三个菜单（设置） -->
+            <RelativeLayout  
+                android:id="@+id/other_page"  
+                android:layout_width="0dp"  
+                android:layout_height="wrap_content"  
+                android:layout_weight="1.0" >  
+  
+                <ImageView  
+                    android:id="@+id/iv_other"  
+                    android:layout_width="wrap_content"  
+                    android:layout_height="wrap_content"  
+                    android:layout_centerHorizontal="true"  
+                    android:src="@drawable/other_settings"  
+                    android:contentDescription="@null" />  
+                  
+  
+                <TextView  
+                    android:id="@+id/tv_other"  
+                    android:layout_width="wrap_content"  
+                    android:layout_height="wrap_content"  
+                    android:layout_below="@+id/iv_other"  
+                    android:layout_centerHorizontal="true"  
+                    android:text="设置"  
+                    android:textColor="#000000"  
+                    android:textSize="12sp" />  
+            </RelativeLayout>  
+       </LinearLayout>
+       
+       <LinearLayout  
+            android:id="@+id/content_layout"  
+            android:layout_width="match_parent"  
+            android:layout_height="match_parent"  
+            android:layout_above="@+id/line"  
+            android:layout_below="@+id/top_tab"  
+            android:orientation="vertical" >  
+        </LinearLayout>  
+  
+        <View  
+            android:id="@+id/line"  
+            android:layout_width="match_parent"  
+            android:layout_height="1dp"  
+            android:layout_above="@id/bottom_tab"  
+            android:background="#E0E0E0" />  
+   </RelativeLayout>
+
+ 
+</FrameLayout>
